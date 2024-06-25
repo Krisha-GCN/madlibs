@@ -19,8 +19,4 @@ person = input("Enter a person: ")
 emotion = input("Enter an emotion: ")
 
 
-print("I love making food because it allows me to get creative in the ", print_colored(adj1, color="blue"), "kitchen. \
-One of my favorite recipes to cook is", print_colored(food, color="blue"), "which always makes my", \
-print_colored(body_part, color="blue"), "water. I like to add a pinch of {spice, for some extra {adj2} flavor. Cooking is a {adj3} activity \
- that relaxes me and brings me joy. The best part is enjoying the delicious meal {adverb} with \
-  {person} and seeing their {emotion} on their face when they take the first bite.")
+print("I love making food because it allows me to get creative in the" + print_colored(adj1, color="blue") + "kitchen. One of my favorite recipes to cook is" + print_colored(food, color="blue") + "which always makes my" + print_colored(body_part, color="blue") + "water. I like to add a pinch of" + print_colored(spice, color="blue") + "for some extra", print_colored(adj2, color="blue") + "flavor. Cooking is a", print_colored(adj3, color="blue"), "activity that relaxes me and brings me joy. The best part is enjoying the delicious meal", print_colored(adverb, color="blue"), "with", print_colored(person, color="blue"), "and seeing their", print_colored(emotion, color="blue") + "on their face when they take the first bite.")
